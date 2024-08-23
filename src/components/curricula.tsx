@@ -38,15 +38,23 @@ export default function Curricula() {
         fetchData();
     }, []);
 
-    useEffect(() => {}, [courseSelected, prerequisites]);
-
     const handleCourseClick = (id: string) => {
-        setCourseSelected(id);
-        setPrerequisites(data?.courses[id]?.prerequisites || []);
+        if (data) {
+            console.log('Before update:');
+            console.log('courseSelected:', courseSelected);
+            console.log('prerequisites:', prerequisites);
+
+            setCourseSelected(id);
+            setPrerequisites(data.courses[id]?.prerequisites || []);
+
+            console.log('After update:');
+            console.log('courseSelected:', id);
+            console.log('prerequisites:', data.courses[id]?.prerequisites);
+        }
     };
 
     return (
-        <div>
+        <div className='w-full px-8'>
             {years.map((yearSemesters, yearIndex) => (
                 <div key={yearIndex} className="mb-4">
                     <div className="bg-blue-500 p-4 m-2 border-2 border-gray-500 rounded w-full">
@@ -63,7 +71,7 @@ export default function Curricula() {
                                     <button
                                         key={id}
                                         className={`p-4 rounded border-2 border-gray-500 flex-1 text-start xl:basis-1/12 ${
-                                            courseSelected === id ? 'bg-red-300' : 'bg-white'
+                                            courseSelected === id ? 'bg-red-300' : ''
                                         } ${prerequisites.includes(id) ? 'bg-green-300' : ''}`}
                                         onClick={() => handleCourseClick(id)}
                                     >
