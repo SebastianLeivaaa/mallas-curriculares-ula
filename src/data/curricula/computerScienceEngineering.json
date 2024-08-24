@@ -148,7 +148,7 @@
         "ICINF30": {
             "name": "Ingles III",
             "semester": 5,
-            "prerequisites": ["ICINF17"]
+            "prerequisites": ["ICINF23"]
         },
         "ICINF31": {
             "name": "Cálculo Numérico",

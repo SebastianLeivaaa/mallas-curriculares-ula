@@ -18,7 +18,9 @@ export default function Curricula() {
     const [data, setData] = useState<Data | null>(null);
     const [years, setYears] = useState<number[][]>([]);
     const [courseSelected, setCourseSelected] = useState<string | null>(null);
-    const [prerequisites, setPrerequisites] = useState<string[]>([]);
+    const [selectedCoursePrerequisites, setSelectedCoursePrerequisites] = useState<string[]>([]);
+    const [coursesWithSelectedAsPrerequisite, setCoursesWithSelectedAsPrerequisite] = useState<string[]>([]);
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -40,18 +42,18 @@ export default function Curricula() {
 
     const handleCourseClick = (id: string) => {
         if (data) {
-            console.log('Before update:');
-            console.log('courseSelected:', courseSelected);
-            console.log('prerequisites:', prerequisites);
-
             setCourseSelected(id);
-            setPrerequisites(data.courses[id]?.prerequisites || []);
-
-            console.log('After update:');
-            console.log('courseSelected:', id);
-            console.log('prerequisites:', data.courses[id]?.prerequisites);
+    
+            const selectedPrerequisites = data.courses[id]?.prerequisites || [];
+            setSelectedCoursePrerequisites(selectedPrerequisites);
+    
+            const selectedAsPrerequisite = Object.entries(data.courses)
+                .filter(([_, course]) => course.prerequisites.includes(id))
+                .map(([id]) => id);
+            setCoursesWithSelectedAsPrerequisite(selectedAsPrerequisite);
         }
     };
+    
 
     return (
         <div className='w-full px-8'>
@@ -70,9 +72,11 @@ export default function Curricula() {
                                 .map(([id, course]) => (
                                     <button
                                         key={id}
-                                        className={`p-4 rounded border-2 border-gray-500 flex-1 text-start xl:basis-1/12 ${
-                                            courseSelected === id ? 'bg-red-300' : ''
-                                        } ${prerequisites.includes(id) ? 'bg-green-300' : ''}`}
+                                        className={`p-4 rounded border-2 border-gray-500 flex-1 text-start xl:basis-1/12 
+                                            ${courseSelected === id ? 'bg-red-300' : ''}
+                                            ${selectedCoursePrerequisites.includes(id) ? 'bg-green-300' : ''}
+                                            ${coursesWithSelectedAsPrerequisite.includes(id) ? 'bg-yellow-300' : ''}
+                                        `}
                                         onClick={() => handleCourseClick(id)}
                                     >
                                         {course.name}
