@@ -26,21 +26,21 @@ export default function Curricula() {
     const searchParams = useSearchParams();
     const career = searchParams.get('career');
 
+    const fetchData = async () => {
+        const response = await fetch(`/api/curricula?career=${career}`);
+        const data: Data = await response.json();
+        setData(data);
+
+        // Agrupar semestres en años
+        const semesters = Array.from({ length: data.durationSemesters }, (_, i) => i + 1);
+        const groupedYears = [];
+        for (let i = 0; i < semesters.length; i += 2) {
+            groupedYears.push(semesters.slice(i, i + 2));
+        }
+        setYears(groupedYears);
+    };
+
     useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch(`/api/curricula?career=${career}`);
-            const data: Data = await response.json();
-            setData(data);
-
-            // Agrupar semestres en años
-            const semesters = Array.from({ length: data.durationSemesters }, (_, i) => i + 1);
-            const groupedYears = [];
-            for (let i = 0; i < semesters.length; i += 2) {
-                groupedYears.push(semesters.slice(i, i + 2));
-            }
-            setYears(groupedYears);
-        };
-
         fetchData();
     }, [career]);
 
