@@ -1,0 +1,329 @@
+{
+    "durationSemesters": 11,
+    "durationYears": 5.5,
+    "courses": {
+        "IC01": {
+            "name": "Introducción a la Matemática",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "IC02": {
+            "name": "Taller de Introducción a la Ingeniería",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "IC03": {
+            "name": "Habilidades Comunicativas para Ingenieros",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "IC04": {
+            "name": "Química",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "IC05": {
+            "name": "Electivo AFI",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "IC06": {
+            "name": "Introducción al Cálculo",
+            "semester": 2,
+            "prerequisites": ["IC01"]
+        },
+        "IC07": {
+            "name": "Álgebra",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "IC08": {
+            "name": "Introducción a la Física",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "IC09": {
+            "name": "Programación",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "IC10": {
+            "name": "Ciudadanía",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "IC11": {
+            "name": "Electivo AFI",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "IC12": {
+            "name": "Cálculo Diferencial e Integral",
+            "semester": 3,
+            "prerequisites": ["IC06"]
+        },
+        "IC13": {
+            "name": "Álgebra Superior",
+            "semester": 3,
+            "prerequisites": ["IC07"]
+        },
+        "IC14": {
+            "name": "Física Newtoniana",
+            "semester": 3,
+            "prerequisites": ["IC06", "IC08"]
+        },
+        "IC15": {
+            "name": "Fundamentos del Análisis Estructural",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "IC16": {
+            "name": "Inglés I",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "IC17": {
+            "name": "Electivo AFI",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "IC18": {
+            "name": "Cálculo Multivariable",
+            "semester": 4,
+            "prerequisites": ["IC12"]
+        },
+        "IC19": {
+            "name": "Estadística y Probabilidad",
+            "semester": 4,
+            "prerequisites": []
+        },
+        "IC20": {
+            "name": "Mecánica General",
+            "semester": 4,
+            "prerequisites": ["ic12", "IC14"]
+        },
+        "IC21": {
+            "name": "Electromagnetismo",
+            "semester": 4,
+            "prerequisites": ["IC14"]
+        },
+        "IC22": {
+            "name": "Termodinámica",
+            "semester": 4,
+            "prerequisites": ["IC08"]
+        },
+        "IC23": {
+            "name": "Inglés II",
+            "semester": 4,
+            "prerequisites": ["IC16"]
+        },
+        "IC24": {
+            "name": "Ecuaciones Diferenciales",
+            "semester": 5,
+            "prerequisites": ["IC18"]
+        },
+        "IC25": {
+            "name": "Topografía",
+            "semester": 5,
+            "prerequisites": []
+        },
+        "IC26": {
+            "name": "Mecánica de Fluidos",
+            "semester": 5,
+            "prerequisites": ["IC20", "IC22"]
+        },
+        "IC27": {
+            "name": "Resistencia de Materiales",
+            "semester": 5,
+            "prerequisites": ["IC15", "IC20"]
+        },
+        "IC28": {
+            "name": "Inglés III",
+            "semester": 5,
+            "prerequisites": ["IC23"]
+        },
+        "IC29": {
+            "name": "Electivo AFI",
+            "semester": 5,
+            "prerequisites": []
+        },
+        "IC30": {
+            "name": "Cálculo Numérico",
+            "semester": 6,
+            "prerequisites": ["IC18"]
+        },
+        "IC31": {
+            "name": "Gestión de Empresas",
+            "semester": 6,
+            "prerequisites": [""]
+        },
+        "IC32": {
+            "name": "Hidráulica",
+            "semester": 6,
+            "prerequisites": ["IC26"]
+        },
+        "IC33": {
+            "name": "Análisis Estructural",
+            "semester": 6,
+            "prerequisites": ["IC13", "IC27"]
+        },
+        "IC34": {
+            "name": "Mecánica de Suelos",
+            "semester": 6,
+            "prerequisites": ["IC27"]
+        },
+        "IC35": {
+            "name": "Inglés IV",
+            "semester": 6,
+            "prerequisites": ["IC28"]
+        },
+        "IC36": {
+            "name": "Economía",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "IC37": {
+            "name": "Investigación Operativa",
+            "semester": 7,
+            "prerequisites": ["IC13"]
+        },
+        "IC38": {
+            "name": "Ingeniería Ambiental",
+            "semester": 7,
+            "prerequisites": ["IC32"]
+        },
+        "IC39": {
+            "name": "Fundaciones",
+            "semester": 7,
+            "prerequisites": ["IC34"]
+        },
+        "IC40": {
+            "name": "Dinámica de Estructuras",
+            "semester": 7,
+            "prerequisites": ["IC24", "IC33"]
+        },
+        "IC41": {
+            "name": "Taller de Ingeniería Civil",
+            "semester": 7,
+            "prerequisites": ["IC33"]
+        },
+        "IC42": {
+            "name": "Práctica Intermedia",
+            "semester": 7,
+            "prerequisites": ["IC25"]
+        },
+        "IC43": {
+            "name": "Formulación Y Evaluación de Proyectos",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "IC44": {
+            "name": "Gestión de la Construcción",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "IC45": {
+            "name": "Hidrología",
+            "semester": 8,
+            "prerequisites": ["IC38"]
+        },
+        "IC46": {
+            "name": "Diseño de Acero",
+            "semester": 8,
+            "prerequisites": ["IC39"]
+        },
+        "IC47": {
+            "name": "Diseño Sismo-Resistente",
+            "semester": 8,
+            "prerequisites": ["IC40"]
+        },
+        "IC48": {
+            "name": "Diseño Asistido por Computador",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "IC49": {
+            "name": "Planificación y Control de Proyectos",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "IC50": {
+            "name": "Taller de Proyectos de Construcción",
+            "semester": 9,
+            "prerequisites": ["IC41", "IC44"]
+        },
+        "IC51": {
+            "name": "Hidráulica Aplicada",
+            "semester": 9,
+            "prerequisites": ["IC45"]
+        },
+        "IC52": {
+            "name": "Diseño de Hormigón",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "IC53": {
+            "name": "Electivo Profesional",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "IC54": {
+            "name": "Electivo Profesional",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "IC55": {
+            "name": "Anteproyecto de Título",
+            "semester": 10,
+            "prerequisites": [
+                "IC01", "IC02", "IC03", "IC04", "IC05", "IC06", "IC07", "IC08", "IC09", "IC10",
+                "IC11", "IC12", "IC13", "IC14", "IC15", "IC16", "IC17", "IC18", "IC19", "IC20",
+                "IC21", "IC22", "IC23", "IC24", "IC25", "IC26", "IC27", "IC28", "IC29", "IC30",
+                "IC31", "IC32", "IC33", "IC34", "IC35", "IC36", "IC37", "IC38", "IC39", "IC40",
+                "IC41", "IC42", "IC43", "IC44", "IC45", "IC46", "IC47", "IC48", "IC49", "IC50",
+                "IC51", "IC52", "IC53", "IC54"
+            ]
+        },
+        "IC56": {
+            "name": "Modelamiento de la Información en la Construcción",
+            "semester": 10,
+            "prerequisites": ["IC44", "IC48"]
+        },
+        "IC57": {
+            "name": "Máquinas y Sistemas Hidráulicos",
+            "semester": 10,
+            "prerequisites": ["IC51"]
+        },
+        "IC58": {
+            "name": "Taller de Proyecto Hidráulico",
+            "semester": 10,
+            "prerequisites": ["IC50", "IC51"]
+        },
+        "IC59": {
+            "name": "Electivo Profesional",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "IC60": {
+            "name": "Electivo Profesional",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "IC61": {
+            "name": "Proyecto de Título",
+            "semester": 11,
+            "prerequisites": ["IC53"]
+        },
+        "IC62": {
+            "name": "Práctica Profesional",
+            "semester": 11,
+            "prerequisites": [
+                "IC01", "IC02", "IC03", "IC04", "IC05", "IC06", "IC07", "IC08", "IC09", "IC10",
+                "IC11", "IC12", "IC13", "IC14", "IC15", "IC16", "IC17", "IC18", "IC19", "IC20",
+                "IC21", "IC22", "IC23", "IC24", "IC25", "IC26", "IC27", "IC28", "IC29", "IC30",
+                "IC31", "IC32", "IC33", "IC34", "IC35", "IC36", "IC37", "IC38", "IC39", "IC40",
+                "IC41", "IC42", "IC43", "IC44", "IC45", "IC46", "IC47", "IC48"
+            ]
+        }
+    }
+}

@@ -1,4 +1,6 @@
 {
+    "durationSemesters": 11,
+    "durationYears": 5.5,
     "courses": {
         "ICINF01": {
             "name": "Introducción a la Matemática",
@@ -346,7 +348,5 @@
                 "ICINF49", "ICINF50", "ICINF51"
             ] 
         }
-    },
-    "durationSemesters": 11,
-    "durationYears": 5.5
+    }
 }
