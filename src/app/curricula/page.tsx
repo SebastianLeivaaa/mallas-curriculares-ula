@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { intToRoman } from '@/utils/romanUtils';
 import { convertYear } from '@/utils/yearUtils';
@@ -15,7 +15,7 @@ type Data = {
     durationSemesters: number;
 };
 
-export default function Curricula() {
+function CurriculaComponent() {
     const [data, setData] = useState<Data | null>(null);
     const [years, setYears] = useState<number[][]>([]);
     const [courseSelected, setCourseSelected] = useState<string | null>(null);
@@ -91,5 +91,13 @@ export default function Curricula() {
                 ))}
             </section>
         </div>
+    );
+}
+
+export default function Curricula() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <CurriculaComponent />
+        </Suspense>
     );
 }
