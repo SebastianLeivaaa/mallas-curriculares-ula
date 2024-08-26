@@ -12,7 +12,6 @@ export async function GET(request: Request) {
         }
 
         const filePath = path.join(process.cwd(), `src/data/curricula/${career}.json`);
-        
         const file = await fs.readFile(filePath, 'utf-8');
         const data = JSON.parse(file);
 
