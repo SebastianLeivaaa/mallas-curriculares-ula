@@ -18,22 +18,22 @@ export default function Home() {
           <h1 className="md:text-4xl font-bold text-center text-2xl">Programas de Grado en Ingeniería</h1>
           <h1 className="md:text-4xl font-bold text-center text-2xl">Universidad de Los Lagos</h1>
         </span>
-        <div className="grid grid-cols-1 md:grid-cols-2 p-8 gap-12">
-        <button onClick={() => handleButtonClick('electricalCivilEngineering')} className='flex p-4 w-full flex-row justify-start items-center gap-x-2 border-2 border-white hover:border-gray-800 hover:bg-gray-800 hover:text-white hover:rounded-md'>
-            <FaBolt className='text-2xl'/>
-            <span className='font-bold md:text-xl text-lg'>Ingeniería Civil Eléctrica</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 md:p-8 gap-12 p-2">
+          <button onClick={() => handleButtonClick('electricalCivilEngineering')} className='flex p-4 w-full flex-row justify-start items-center gap-x-2 border-2 border-white hover:border-gray-800 hover:bg-gray-800 hover:text-white hover:rounded-md'>
+            <FaBolt className='md:text-2xl text-lg'/>
+            <span className='font-bold md:text-xl text-base'>Ingeniería Civil Eléctrica</span>
           </button>
           <button onClick={() => handleButtonClick('civilEngineering')} className='flex p-4 w-full flex-row justify-start items-center gap-x-2 border-2 border-white hover:border-gray-800 hover:bg-gray-800 hover:text-white rounded-md'>
-            <FaBuilding className='text-2xl'/>
-            <span className='font-bold md:text-xl text-lg'>Ingeniería Civil</span>
+            <FaBuilding className='md:text-2xl text-lg'/>
+            <span className='font-bold md:text-xl text-base'>Ingeniería Civil</span>
           </button>
           <button onClick={() => handleButtonClick('computerScienceEngineering')} className='flex p-4 w-full flex-row justify-start items-center gap-x-2 border-2 border-white hover:border-gray-800 hover:bg-gray-800 hover:text-white hover:rounded-md'>
-            <FaDesktop className='text-2xl'/>
-            <span className='font-bold md:text-xl text-lg'>Ingeniería Civil Informática</span>
+            <FaDesktop className='tmd:text-2xl text-lg'/>
+            <span className='font-bold md:text-xl text-base'>Ingeniería Civil Informática</span>
           </button>
           <button onClick={() => handleButtonClick('industrialCivilEngineering')} className='flex p-4 w-full flex-row justify-start items-center gap-x-2 border-2 border-white hover:border-gray-800 hover:bg-gray-800 hover:text-white hover:rounded-md'>
-            <FaIndustry className='text-2xl'/>
-            <span className='font-bold md:text-xl text-lg'>Ingeniería Civil Industrial</span>
+            <FaIndustry className='md:text-2xl text-lg'/>
+            <span className='font-bold md:text-xl text-base'>Ingeniería Civil Industrial</span>
           </button>
         </div>
       </section>
