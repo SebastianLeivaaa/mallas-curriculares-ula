@@ -1,31 +1,31 @@
 {
     "name": "Ingeniería Civil Informática",
     "year": 2013,
-    "durationSemesters": 11,
-    "durationYears": 5.5,
+    "durationSemesters": 12,
+    "durationYears": 6,
     "courses": {
         "ICINF01": {
-            "name": "Introducción a la dsadaddsa",
+            "name": "Introducción a la Matemática",
             "semester": 1,
             "prerequisites": []
         },
         "ICINF02": {
-            "name": "Química",
+            "name": "Taller de Introducción a la Ingeniería",
             "semester": 1,
             "prerequisites": []
         },
         "ICINF03": {
-            "name": "Taller de Introducción a la Ingeniería Informática",
-            "semester": 1,
-            "prerequisites": []
-        },
-        "ICINF04": {
             "name": "Habilidades Comunicativas para Ingenieros",
             "semester": 1,
             "prerequisites": []
         },
+        "ICINF04": {
+            "name": "Deporte",
+            "semester": 1,
+            "prerequisites": []
+        },
         "ICINF05": {
-            "name": "Programación",
+            "name": "Formación General",
             "semester": 1,
             "prerequisites": []
         },
@@ -37,7 +37,7 @@
         "ICINF07": {
             "name": "Álgebra",
             "semester": 2,
-            "prerequisites": []
+            "prerequisites": ["ICINF01"]
         },
         "ICINF08": {
             "name": "Introducción a la Física",
@@ -45,298 +45,225 @@
             "prerequisites": []
         },
         "ICINF09": {
-            "name": "Electivo AFI",
+            "name": "Química",
             "semester": 2,
             "prerequisites": []
         },
         "ICINF10": {
-            "name": "Ciudadanía",
+            "name": "Programación",
             "semester": 2,
             "prerequisites": []
         },
         "ICINF11": {
-            "name": "Programación Orientada a Objetos",
-            "semester": 2,
-            "prerequisites": ["ICINF05"]
-        },
-        "ICINF12": {
             "name": "Cálculo Diferencial e Integral",
-            "semester": 3,
+            "semester": 2,
             "prerequisites": ["ICINF06"]
         },
-        "ICINF13": {
+        "ICINF12": {
             "name": "Álgebra Superior",
             "semester": 3,
             "prerequisites": ["ICINF07"]
         },
-        "ICINF14": {
+        "ICINF13": {
             "name": "Física Newtoniana",
             "semester": 3,
-            "prerequisites": ["ICINF06", "ICINF08"]
+            "prerequisites": ["ICINF08"]
+        },
+        "ICINF14": {
+            "name": "Estructuras Discretas",
+            "semester": 3,
+            "prerequisites": ["ICINF07"]
         },
         "ICINF15": {
-            "name": "Estructura de Datos",
+            "name": "Programación Avanzada",
             "semester": 3,
-            "prerequisites": ["ICINF05"]
+            "prerequisites": ["ICINF10"]
         },
         "ICINF16": {
-            "name": "Taller de Programación Aplicada",
-            "semester": 3,
+            "name": "Cálculo en Varias Variables",
+            "semester": 4,
             "prerequisites": ["ICINF11"]
         },
         "ICINF17": {
-            "name": "Ingles I",
-            "semester": 3,
-            "prerequisites": []
-        },
-        "ICINF18": {
-            "name": "Cálculo Multivariable",
-            "semester": 4,
-            "prerequisites": ["ICINF12"]
-        },
-        "ICINF19": {
-            "name": "Estructuras Discretas",
+            "name": "Probabilidad y Estadística",
             "semester": 4,
             "prerequisites": ["ICINF07"]
         },
-        "ICINF20": {
+        "ICINF18": {
             "name": "Electromagnetismo",
             "semester": 4,
-            "prerequisites": ["ICINF12", "ICINF14"]
+            "prerequisites": ["ICINF11", "ICINF13"]
+        },
+        "ICINF19": {
+            "name": "Termodinámica",
+            "semester": 4,
+            "prerequisites": ["ICINF08", "ICINF09"]
+        },
+        "ICINF20": {
+            "name": "Estructura de Datos y Algoritmos",
+            "semester": 4,
+            "prerequisites": ["ICINF15"]
         },
         "ICINF21": {
-            "name": "Autómata y Lenguajes Formales",
-            "semester": 4,
-            "prerequisites": []
+            "name": "Ecuaciones Diferenciales",
+            "semester": 5,
+            "prerequisites": ["ICINF16"]
         },
         "ICINF22": {
-            "name": "Modelamiento y Paradigmas de Programación",
-            "semester": 4,
-            "prerequisites": []
-        },
-        "ICINF23": {
-            "name": "Ingles II",
-            "semester": 4,
+            "name": "Inferencia Estadística",
+            "semester": 5,
             "prerequisites": ["ICINF17"]
         },
-        "ICINF24": {
-            "name": "Electivo AFI",
-            "semester": 4,
-            "prerequisites": []
-        },
-        "ICINF25": {
-            "name": "Ecuaciones Diferenciales",
+        "ICINF23": {
+            "name": "Electrotecnia",
             "semester": 5,
             "prerequisites": ["ICINF18"]
         },
-        "ICINF26": {
-            "name": "Física Moderna y Ondas",
+        "ICINF24": {
+            "name": "Ciencias y Tecnología de los Materiales",
             "semester": 5,
+            "prerequisites": ["ICINF08", "ICINF09"]
+        },
+        "ICINF25": {
+            "name": "Lenguajes de Programación",
+            "semester": 5,
+            "prerequisites": ["ICINF20"]
+        },
+        "ICINF26": {
+            "name": "Gestión de Empresas",
+            "semester": 6,
             "prerequisites": []
         },
         "ICINF27": {
-            "name": "Estadística y Probabilidad",
-            "semester": 5,
-            "prerequisites": ["ICINF18"]
-        },
-        "ICINF28": {
-            "name": "Análisis y Diseño de Algoritmos",
-            "semester": 5,
-            "prerequisites": []
-        },
-        "ICINF29": {
-            "name": "Base de Datos",
-            "semester": 5,
-            "prerequisites": ["ICINF22"]
-        },
-        "ICINF30": {
-            "name": "Ingles III",
-            "semester": 5,
-            "prerequisites": ["ICINF23"]
-        },
-        "ICINF31": {
             "name": "Cálculo Numérico",
             "semester": 6,
-            "prerequisites": ["ICINF18"]
+            "prerequisites": ["ICINF21"]
         },
-        "ICINF32": {
-            "name": "Taller de Diseño Digital",
+        "ICINF28": {
+            "name": "Diseño Digital",
+            "semester": 6,
+            "prerequisites": ["ICINF23"]
+        },
+        "ICINF29": {
+            "name": "Arquitectura de Computadores",
+            "semester": 6,
+            "prerequisites": ["ICINF15"]
+        },
+        "ICINF30": {
+            "name": "Bases de Datos",
             "semester": 6,
             "prerequisites": ["ICINF20"]
         },
-        "ICINF33": {
-            "name": "Bases de Datos Avanzadas",
-            "semester": 6,
-            "prerequisites": ["ICINF29"]
-        },
-        "ICINF34": {
-            "name": "Tecnologías Móviles y Web",
-            "semester": 6,
-            "prerequisites": []
-        },
-        "ICINF35": {
-            "name": "Ingeniería de Sistemas",
-            "semester": 6,
-            "prerequisites": []
-        },
-        "ICINF36": {
-            "name": "Ingles IV",
-            "semester": 6,
-            "prerequisites": ["ICINF30"]
-        },
-        "ICINF37": {
-            "name": "Electivo AFI",
-            "semester": 6,
-            "prerequisites": []
-        },
-        "ICINF38": {
-            "name": "Arquitectura de Computadores",
-            "semester": 7,
-            "prerequisites": []
-        },
-        "ICINF39": {
+        "ICINF31": {
             "name": "Economía",
             "semester": 7,
-            "prerequisites": []
+            "prerequisites": ["ICINF11"]
         },
-        "ICINF40": {
-            "name": "Gestión de Empresas",
+        "ICINF32": {
+            "name": "Investigación Operativa",
             "semester": 7,
-            "prerequisites": []
+            "prerequisites": ["ICINF16"]
         },
-        "ICINF41": {
-            "name": "Sistemas de Información",
+        "ICINF33": {
+            "name": "Ingeniería de Sistemas",
             "semester": 7,
-            "prerequisites": ["ICINF35"]
+            "prerequisites": ["ICINF25"]
         },
-        "ICINF42": {
-            "name": "Taller de Ingeniería Informática",
-            "semester": 7,
-            "prerequisites": ["ICINF34"]
-        },
-        "ICINF43": {
-            "name": "Inglés para Informáticos I",
-            "semester": 7,
-            "prerequisites": []
-        },
-        "ICINF44": {
-            "name": "Práctica Intermedia",
+        "ICINF34": {
+            "name": "Sistemas Operativos",
             "semester": 7,
             "prerequisites": ["ICINF29"]
         },
-        "ICINF45": {
-            "name": "Investigación Operativa",
-            "semester": 8,
-            "prerequisites": ["ICINF13"]
+        "ICINF35": {
+            "name": "Taller de Bases de Datos",
+            "semester": 7,
+            "prerequisites": ["ICINF30"]
         },
-        "ICINF46": {
-            "name": "Sistemas Operativos",
-            "semester": 8,
-            "prerequisites": ["ICINF38"]
+        "ICINF36": {
+            "name": "Práctica Verano I",
+            "semester": 7,
+            "prerequisites": [
+                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
+                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11"
+            ]
         },
-        "ICINF47": {
-            "name": "Ingeniería de Software",
-            "semester": 8,
-            "prerequisites": ["ICINF22"]
-        },
-        "ICINF48": {
+        "ICINF37": {
             "name": "Contabilidad y Costos",
             "semester": 8,
             "prerequisites": []
         },
-        "ICINF49": {
-            "name": "Formulación Y Evaluación de Proyectos",
+        "ICINF38": {
+            "name": "Investigación Operativa Avanzada",
             "semester": 8,
+            "prerequisites": ["ICINF32"]
+        },
+        "ICINF39": {
+            "name": "Sistemas de Información",
+            "semester": 8,
+            "prerequisites": ["ICINF33"]
+        },
+        "ICINF40": {
+            "name": "Sistemas de Control de Procesos",
+            "semester": 8,
+            "prerequisites": ["ICINF23"]
+        },
+        "ICINF41": {
+            "name": "Redes y Comunicaciones",
+            "semester": 8,
+            "prerequisites": ["ICINF34"]
+        },
+        "ICINF42": {
+            "name": "Ingeniería Económica y FInanciera",
+            "semester": 9,
             "prerequisites": []
         },
-        "ICINF50": {
-            "name": "Inglés para Informáticos II",
-            "semester": 8,
+        "ICINF43": {
+            "name": "Ingeniería de Software",
+            "semester": 9,
+            "prerequisites": ["ICINF25"]
+        },
+        "ICINF44": {
+            "name": "Sistemas Distribuidos",
+            "semester": 9,
+            "prerequisites": ["ICINF34"]
+        },
+        "ICINF45": {
+            "name": "Espíritu Emprendedor",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICINF46": {
+            "name": "Inglés I",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICINF47": {
+            "name": "Planificación Estraégica",
+            "semester": 10,
+            "prerequisites": ["ICINF26"]
+        },
+        "ICINF48": {
+            "name": "Preparación y Evaluación de Proyectos",
+            "semester": 10,
+            "prerequisites": ["ICINF37", "ICINF42"]
+        },
+        "ICINF49": {
+            "name": "Taller Ingeniería de Software",
+            "semester": 10,
             "prerequisites": ["ICINF43"]
         },
+        "ICINF50": {
+            "name": "Inteligencia Artificial",
+            "semester": 10,
+            "prerequisites": ["ICINF35"]
+        },
         "ICINF51": {
-            "name": "Electivo AFI",
-            "semester": 8,
-            "prerequisites": []
+            "name": "Inglés II",
+            "semester": 10,
+            "prerequisites": ["ICINF46"]
         },
         "ICINF52": {
-            "name": "Redes y Comunicaciones",
-            "semester": 9,
-            "prerequisites": []
-        },
-        "ICINF53": {
-            "name": "Inteligencia Artificial",
-            "semester": 9,
-            "prerequisites": ["ICINF21"]
-        },
-        "ICINF54": {
-            "name": "Taller de Ingeniería de Software",
-            "semester": 9,
-            "prerequisites": ["ICINF47"]
-        },
-        "ICINF55": {
-            "name": "Innovación y Emprendimiento en Informática",
-            "semester": 9,
-            "prerequisites": []
-        },
-        "ICINF56": {
-            "name": "Electivo Profesional",
-            "semester": 9,
-            "prerequisites": []
-        },
-        "ICINF57": {
-            "name": "Electivo Profesional",
-            "semester": 9,
-            "prerequisites": []
-        },
-        "ICINF58": {
-            "name": "Sistemas Distribuidos",
-            "semester": 10,
-            "prerequisites": ["ICINF52"]
-        },
-        "ICINF59": {
-            "name": "Seguridad Informática",
-            "semester": 10,
-            "prerequisites": ["ICINF42"]
-        },
-        "ICINF60": {
-            "name": "Taller de Integración Tecnológica",
-            "semester": 10,
-            "prerequisites": ["ICINF47"]
-        },
-        "ICINF61": {
-            "name": "Anteproyecto de Título",
-            "semester": 10,
-            "prerequisites": [
-                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
-                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11", "ICINF12", 
-                "ICINF13", "ICINF14", "ICINF15", "ICINF16", "ICINF17", "ICINF18", 
-                "ICINF19", "ICINF20", "ICINF21", "ICINF22", "ICINF23", "ICINF24", 
-                "ICINF25", "ICINF26", "ICINF27", "ICINF28", "ICINF29", "ICINF30", 
-                "ICINF31", "ICINF32", "ICINF33", "ICINF34", "ICINF35", "ICINF36", 
-                "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41", "ICINF42", 
-                "ICINF43", "ICINF44", "ICINF45", "ICINF46", "ICINF47", "ICINF48", 
-                "ICINF49", "ICINF50", "ICINF51", "ICINF52", "ICINF53", "ICINF54", 
-                "ICINF55", "ICINF56", "ICINF57"
-            ]            
-        },
-        "ICINF62": {
-            "name": "Electivo Profesional",
-            "semester": 10,
-            "prerequisites": []
-        },
-        "ICINF63": {
-            "name": "Electivo Profesional",
-            "semester": 10,
-            "prerequisites": []
-        },
-        "ICINF64": {
-            "name": "Proyecto de Título",
-            "semester": 11,
-            "prerequisites": ["ICINF61"]
-        },
-        "ICINF65": {
-            "name": "Práctica Profesional",
+            "name": "Taller de Titulación I",
             "semester": 11,
             "prerequisites": [
                 "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
@@ -348,7 +275,99 @@
                 "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41", "ICINF42", 
                 "ICINF43", "ICINF44", "ICINF45", "ICINF46", "ICINF47", "ICINF48", 
                 "ICINF49", "ICINF50", "ICINF51"
-            ] 
+            ]
+        },
+        "ICINF53": {
+            "name": "Gestión de la Innovación",
+            "semester": 11,
+            "prerequisites": ["ICINF47", "ICINF48"]
+        },
+        "ICINF54": {
+            "name": "Electivo Profesional I",
+            "semester": 11,
+            "prerequisites": [
+                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
+                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11", "ICINF12", 
+                "ICINF13", "ICINF14", "ICINF15", "ICINF16", "ICINF17", "ICINF18", 
+                "ICINF19", "ICINF20", "ICINF21", "ICINF22", "ICINF23", "ICINF24", 
+                "ICINF25", "ICINF26", "ICINF27", "ICINF28", "ICINF29", "ICINF30", 
+                "ICINF31", "ICINF32", "ICINF33", "ICINF34", "ICINF35", "ICINF36", 
+                "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41"
+            ]
+        },
+        "ICINF55": {
+            "name": "Electivo Profesional II",
+            "semester": 11,
+            "prerequisites": [
+                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
+                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11", "ICINF12", 
+                "ICINF13", "ICINF14", "ICINF15", "ICINF16", "ICINF17", "ICINF18", 
+                "ICINF19", "ICINF20", "ICINF21", "ICINF22", "ICINF23", "ICINF24", 
+                "ICINF25", "ICINF26", "ICINF27", "ICINF28", "ICINF29", "ICINF30", 
+                "ICINF31", "ICINF32", "ICINF33", "ICINF34", "ICINF35", "ICINF36", 
+                "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41"
+            ]
+        },
+        "ICINF56": {
+            "name": "Inglés III",
+            "semester": 11,
+            "prerequisites": ["ICINF51"]
+        },
+        "ICINF57": {
+            "name": "Práctica Verano II",
+            "semester": 11,
+            "prerequisites": [
+                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
+                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11", "ICINF12", 
+                "ICINF13", "ICINF14", "ICINF15", "ICINF16", "ICINF17", "ICINF18", 
+                "ICINF19", "ICINF20", "ICINF21", "ICINF22", "ICINF23", "ICINF24", 
+                "ICINF25", "ICINF26", "ICINF27", "ICINF28", "ICINF29", "ICINF30", 
+                "ICINF31", "ICINF32", "ICINF33", "ICINF34", "ICINF35", "ICINF36", 
+                "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41", "ICINF42", 
+                "ICINF43", "ICINF44", "ICINF45", "ICINF46", "ICINF47", "ICINF48", 
+                "ICINF49", "ICINF50", "ICINF51"
+            ]
+        },
+        "ICINF58": {
+            "name": "Taller de Titulación II",
+            "semester": 12,
+            "prerequisites": ["ICINF52"]
+        },
+        "ICINF59": {
+            "name": "Emprendimiento Tecnológico",
+            "semester": 12,
+            "prerequisites": ["ICINF53"]
+        },
+        "ICINF60": {
+            "name": "Electivo Profesional III",
+            "semester": 12,
+            "prerequisites": [
+                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
+                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11", "ICINF12", 
+                "ICINF13", "ICINF14", "ICINF15", "ICINF16", "ICINF17", "ICINF18", 
+                "ICINF19", "ICINF20", "ICINF21", "ICINF22", "ICINF23", "ICINF24", 
+                "ICINF25", "ICINF26", "ICINF27", "ICINF28", "ICINF29", "ICINF30", 
+                "ICINF31", "ICINF32", "ICINF33", "ICINF34", "ICINF35", "ICINF36", 
+                "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41"
+            ]
+        },
+        "ICINF61": {
+            "name": "Electivo Profesional IV",
+            "semester": 12,
+            "prerequisites": [
+                "ICINF01", "ICINF02", "ICINF03", "ICINF04", "ICINF05", "ICINF06", 
+                "ICINF07", "ICINF08", "ICINF09", "ICINF10", "ICINF11", "ICINF12", 
+                "ICINF13", "ICINF14", "ICINF15", "ICINF16", "ICINF17", "ICINF18", 
+                "ICINF19", "ICINF20", "ICINF21", "ICINF22", "ICINF23", "ICINF24", 
+                "ICINF25", "ICINF26", "ICINF27", "ICINF28", "ICINF29", "ICINF30", 
+                "ICINF31", "ICINF32", "ICINF33", "ICINF34", "ICINF35", "ICINF36", 
+                "ICINF37", "ICINF38", "ICINF39", "ICINF40", "ICINF41"
+            ]            
+        },
+        "ICINF62": {
+            "name": "Inglés IV",
+            "semester": 12,
+            "prerequisites": ["ICINF56"]
         }
     }
 }

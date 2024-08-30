@@ -105,7 +105,7 @@
             "prerequisites": ["ICINF12", "ICINF14"]
         },
         "ICINF21": {
-            "name": "Autómata y Lenguajes Formales",
+            "name": "Autómatas y Lenguajes Formales",
             "semester": 4,
             "prerequisites": []
         },
