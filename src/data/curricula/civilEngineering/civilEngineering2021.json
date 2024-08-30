@@ -1,4 +1,6 @@
 {
+    "name": "Ingeniería Civil",
+    "year": 2020,
     "durationSemesters": 11,
     "durationYears": 5.5,
     "courses": {
@@ -312,7 +314,7 @@
         "IC61": {
             "name": "Proyecto de Título",
             "semester": 11,
-            "prerequisites": ["IC53"]
+            "prerequisites": ["IC55"]
         },
         "IC62": {
             "name": "Práctica Profesional",
