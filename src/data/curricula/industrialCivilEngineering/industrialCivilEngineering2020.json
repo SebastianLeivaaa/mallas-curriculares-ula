@@ -309,7 +309,7 @@
         "ICI60": {
             "name": "Proyecto de Título",
             "semester": 11,
-            "prerequisites": ["ICINF54"]
+            "prerequisites": ["ICI54"]
         },
         "ICI61": {
             "name": "Práctica Profesional",
