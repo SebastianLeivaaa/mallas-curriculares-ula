@@ -108,7 +108,7 @@ function CurriculaComponent() {
                             </div>
                             {yearSemesters.map((semester) => (
                                 <div key={`semester-${semester}`} className="flex flex-wrap w-full gap-x-1.5 gap-y-1.5 text-black m-2">
-                                    <div className='p-4 rounded border-2 border-gray-500 l:text-base text-xs items-center text-start bg-blue-700 text-white w-full xl:basis-[10%]'>
+                                    <div className='p-4 rounded border-2 border-blue-700 l:text-base text-xs items-center text-start bg-blue-700 text-white w-full xl:basis-[10%]'>
                                         Semestre {intToRoman(semester)}
                                     </div>
                                     {Object.entries(data?.courses || {})
