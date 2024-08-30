@@ -1,0 +1,326 @@
+{
+    "name": "Ingeniería Civil Eléctrica",
+    "year": 2021,
+    "durationSemesters": 11,
+    "durationYears": 5.5,
+    "courses": {
+        "ICE01": {
+            "name": "Introducción a la Matemática",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICE02": {
+            "name": "Taller de Introducción a la Ingeniería",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICE03": {
+            "name": "Habilidades Comunicativas para Ingenieros",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICE04": {
+            "name": "Química",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICE05": {
+            "name": "Electivo AFI",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICE06": {
+            "name": "Introducción al Cálculo",
+            "semester": 2,
+            "prerequisites": ["ICE01"]
+        },
+        "ICE07": {
+            "name": "Álgebra",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICE08": {
+            "name": "Introducción a la Física",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICE09": {
+            "name": "Programación",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICE10": {
+            "name": "Ciudadanía",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICE11": {
+            "name": "Electivo AFI",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICE12": {
+            "name": "Cálculo Diferencial e Integral",
+            "semester": 3,
+            "prerequisites": ["ICE06"]
+        },
+        "ICE13": {
+            "name": "Álgebra Superior",
+            "semester": 3,
+            "prerequisites": ["ICE07"]
+        },
+        "ICE14": {
+            "name": "Física Newtoniana",
+            "semester": 3,
+            "prerequisites": ["ICE08"]
+        },
+        "ICE15": {
+            "name": "Termodinámica",
+            "semester": 3,
+            "prerequisites": ["ICE06", "ICE08"]
+        },
+        "ICE16": {
+            "name": "Inglés I",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "ICE17": {
+            "name": "Electivo AFI",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "ICE18": {
+            "name": "Cálculo Multivariable",
+            "semester": 4,
+            "prerequisites": ["ICE12"]
+        },
+        "ICE19": {
+            "name": "Estadística y Probabilidad",
+            "semester": 4,
+            "prerequisites": []
+        },
+        "ICE20": {
+            "name": "Mecánica y Resistencia de Materiales",
+            "semester": 4,
+            "prerequisites": ["ICE14"]
+        },
+        "ICE21": {
+            "name": "Teoría de Circuitos I",
+            "semester": 4,
+            "prerequisites": ["ICE07"]
+        },
+        "ICE22": {
+            "name": "Electromagnetismo",
+            "semester": 4,
+            "prerequisites": ["ICE12", "ICE14"]
+        },
+        "ICE23": {
+            "name": "Inglés II",
+            "semester": 4,
+            "prerequisites": ["ICE16"]
+        },
+        "ICE24": {
+            "name": "Ecuaciones Diferenciales",
+            "semester": 5,
+            "prerequisites": ["ICE18"]
+        },
+        "ICE25": {
+            "name": "Metrología",
+            "semester": 5,
+            "prerequisites": ["ICE22"]
+        },
+        "ICE26": {
+            "name": "Campos Electromagnéticos",
+            "semester": 5,
+            "prerequisites": ["ICE13"]
+        },
+        "ICE27": {
+            "name": "Teoría de Circuitos II",
+            "semester": 5,
+            "prerequisites": ["ICE21"]
+        },
+        "ICE28": {
+            "name": "Electrónica General",
+            "semester": 5,
+            "prerequisites": ["ICE21"]
+        },
+        "ICE29": {
+            "name": "Inglés III",
+            "semester": 5,
+            "prerequisites": ["ICE23"]
+        },
+        "ICE30": {
+            "name": "Cálculo Numérico",
+            "semester": 6,
+            "prerequisites": ["ICE18"]
+        },
+        "ICE31": {
+            "name": "Electrónica de Potencia",
+            "semester": 6,
+            "prerequisites": ["ICE28"]
+        },
+        "ICE32": {
+            "name": "Conversión Electromecánica de Energía",
+            "semester": 6,
+            "prerequisites": ["ICE22", "ICE27"]
+        },
+        "ICE33": {
+            "name": "Análisis de Señales",
+            "semester": 6,
+            "prerequisites": ["ICE24"]
+        },
+        "ICE34": {
+            "name": "Economía",
+            "semester": 6,
+            "prerequisites": []
+        },
+        "ICE35": {
+            "name": "Inglés IV",
+            "semester": 6,
+            "prerequisites": ["ICE29"]
+        },
+        "ICE36": {
+            "name": "Monitoreo y Control Automático I ",
+            "semester": 7,
+            "prerequisites": ["ICE33"]
+        },
+        "ICE37": {
+            "name": "Máquinas Eléctricas",
+            "semester": 7,
+            "prerequisites": ["ICE32"]
+        },
+        "ICE38": {
+            "name": "Sistemas Digitales",
+            "semester": 7,
+            "prerequisites": ["ICE30"]
+        },
+        "ICE39": {
+            "name": "Gestión de Empresas",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "ICE40": {
+            "name": "Taller de Ingeniería Eléctrica",
+            "semester": 7,
+            "prerequisites": ["ICE27"]
+        },
+        "ICE41": {
+            "name": "Práctica Intermedia",
+            "semester": 7,
+            "prerequisites": ["ICE25"]
+        },
+        "ICE42": {
+            "name": "Monitoreo y Control Automático II ",
+            "semester": 8,
+            "prerequisites": ["ICE36"]
+        },
+        "ICE43": {
+            "name": "Accionamientos Eléctricos",
+            "semester": 8,
+            "prerequisites": ["ICE37"]
+        },
+        "ICE44": {
+            "name": "Sistemas Eléctricos de Potencia I",
+            "semester": 8,
+            "prerequisites": ["ICE32"]
+        },
+        "ICE45": {
+            "name": "Investigación Operativa",
+            "semester": 8,
+            "prerequisites": ["ICE13"]
+        },
+        "ICE46": {
+            "name": "Electivo AFI",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICE47": {
+            "name": "Preparación y Evaluación de Proyectos",
+            "semester": 8,
+            "prerequisites": ["ICE41"]
+        },
+        "ICE48": {
+            "name": "Taller de Control de Procesos",
+            "semester": 9,
+            "prerequisites": ["ICE42"]
+        },
+        "ICE49": {
+            "name": "Centrales Eléctricas",
+            "semester": 9,
+            "prerequisites": ["ICE37"]
+        },
+        "ICE50": {
+            "name": "Sistemas Eléctricos de Potencia II",
+            "semester": 9,
+            "prerequisites": ["ICE44"]
+        },
+        "ICE51": {
+            "name": "Sistemas de Comunicaciones",
+            "semester": 9,
+            "prerequisites": ["ICE33"]
+        },
+        "ICE52": {
+            "name": " Electivo Profesional I",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICE53": {
+            "name": "Electivo Profesional II",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICE54": {
+            "name": "Anteproyecto de Título",
+            "semester": 10,
+            "prerequisites": [
+                "ICE01", "ICE02", "ICE03", "ICE04", "ICE05", "ICE06", "ICE07", "ICE08", "ICE09", "ICE10", 
+                "ICE11", "ICE12", "ICE13", "ICE14", "ICE15", "ICE16", "ICE17", "ICE18", "ICE19", "ICE20", 
+                "ICE21", "ICE22", "ICE23", "ICE24", "ICE25", "ICE26", "ICE27", "ICE28", "ICE29", "ICE30", 
+                "ICE31", "ICE32", "ICE33", "ICE34", "ICE35", "ICE36", "ICE37", "ICE38", "ICE39", "ICE40", 
+                "ICE41", "ICE42", "ICE43", "ICE44", "ICE45", "ICE46", "ICE47", "ICE48", "ICE49", "ICE50", 
+                "ICE51", "ICE52", "ICE53"
+            ]
+        },
+        "ICE55": {
+            "name": " Taller de Energía y Eficiencia Energética ",
+            "semester": 10,
+            "prerequisites": ["ICE40"]
+        },
+        "ICE56": {
+            "name": "Legislación Eléctrica",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICE57": {
+            "name": "Planificación Eléctrica",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICE58": {
+            "name": "Electivo Profesional III",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICE59": {
+            "name": "Electivo Profesional IV",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICE60": {
+            "name": "Proyecto de Título",
+            "semester": 11,
+            "prerequisites": ["ICE54"]
+        },
+        "ICE61": {
+            "name": "Práctica Profesional",
+            "semester": 11,
+            "prerequisites": [
+                "ICE01", "ICE02", "ICE03", "ICE04", "ICE05", "ICE06", "ICE07", "ICE08", "ICE09", "ICE10", 
+                "ICE11", "ICE12", "ICE13", "ICE14", "ICE15", "ICE16", "ICE17", "ICE18", "ICE19", "ICE20", 
+                "ICE21", "ICE22", "ICE23", "ICE24", "ICE25", "ICE26", "ICE27", "ICE28", "ICE29", "ICE30", 
+                "ICE31", "ICE32", "ICE33", "ICE34", "ICE35", "ICE36", "ICE37", "ICE38", "ICE39", "ICE40", 
+                "ICE41", "ICE42", "ICE43", "ICE44", "ICE45", "ICE46", "ICE47"
+            ]
+        }
+    }
+}
