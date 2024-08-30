@@ -284,7 +284,7 @@
         "ICI55": {
             "name": "Gestión Estratégica",
             "semester": 10,
-            "prerequisites": []
+            "prerequisites": ["ICI52"]
         },
         "ICI56": {
             "name": "Electivo Profesional",
@@ -304,7 +304,7 @@
         "ICI59": {
             "name": "Taller de Gestión de Operaciones",
             "semester": 10,
-            "prerequisites": []
+            "prerequisites": ["ICI44", "ICI53"]
         },
         "ICI60": {
             "name": "Proyecto de Título",
