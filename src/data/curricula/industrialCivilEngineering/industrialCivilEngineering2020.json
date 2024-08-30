@@ -1,0 +1,326 @@
+{
+    "name": "Ingeniería Civil Industrial",
+    "year": 2020,
+    "durationSemesters": 11,
+    "durationYears": 5.5,
+    "courses": {
+        "ICI01": {
+            "name": "Introducción a la Matemática",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICI02": {
+            "name": "Taller de Introducción a la Ingeniería",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICI03": {
+            "name": "Habilidades Comunicativas para Ingenieros",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICI04": {
+            "name": "Química",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICI05": {
+            "name": "Electivo AFI",
+            "semester": 1,
+            "prerequisites": []
+        },
+        "ICI06": {
+            "name": "Introducción al Cálculo",
+            "semester": 2,
+            "prerequisites": ["ICI01"]
+        },
+        "ICI07": {
+            "name": "Álgebra",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICI08": {
+            "name": "Introducción a la Física",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICI09": {
+            "name": "Programación",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICI10": {
+            "name": "Ciudadanía",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICI11": {
+            "name": "Electivo AFI",
+            "semester": 2,
+            "prerequisites": []
+        },
+        "ICI12": {
+            "name": "Cálculo Diferencial e Integral",
+            "semester": 3,
+            "prerequisites": ["ICI06"]
+        },
+        "ICI13": {
+            "name": "Álgebra Superior",
+            "semester": 3,
+            "prerequisites": ["ICI07"]
+        },
+        "ICI14": {
+            "name": " Física Newtoniana",
+            "semester": 3,
+            "prerequisites": ["IC06", "IC08"]
+        },
+        "ICI15": {
+            "name": "Teoría Organizacional",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "ICI16": {
+            "name": "Electivo AFI",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "ICI17": {
+            "name": "Inglés I",
+            "semester": 3,
+            "prerequisites": []
+        },
+        "ICI18": {
+            "name": "Cálculo Multivariable",
+            "semester": 4,
+            "prerequisites": ["ICI12"]
+        },
+        "ICI19": {
+            "name": "Estadística y Probabilidad",
+            "semester": 4,
+            "prerequisites": []
+        },
+        "ICI20": {
+            "name": "Electromagnetismo",
+            "semester": 4,
+            "prerequisites": ["ICI12", "ICI14"]
+        },
+        "ICI21": {
+            "name": "Resistencia de Materiales",
+            "semester": 4,
+            "prerequisites": []
+        },
+        "ICI22": {
+            "name": "Economía",
+            "semester": 4,
+            "prerequisites": []
+        },
+        "ICI23": {
+            "name": "Inglés II",
+            "semester": 4,
+            "prerequisites": ["ICI17"]
+        },
+        "ICI24": {
+            "name": "Ecuaciones Diferenciales ",
+            "semester": 5,
+            "prerequisites": ["ICI18"]
+        },
+        "ICI25": {
+            "name": "Inferencia Estadística",
+            "semester": 5,
+            "prerequisites": ["ICI19"]
+        },
+        "ICI26": {
+            "name": "Electrotecnia",
+            "semester": 5,
+            "prerequisites": ["ICI20"]
+        },
+        "ICI27": {
+            "name": "Física Moderna y Ondas",
+            "semester": 5,
+            "prerequisites": []
+        },
+        "ICI28": {
+            "name": "Termodinámica",
+            "semester": 5,
+            "prerequisites": []
+        },
+        "ICI29": {
+            "name": "Inglés III",
+            "semester": 5,
+            "prerequisites": ["ICI23"]
+        },
+        "ICI30": {
+            "name": "Cálculo Numérico",
+            "semester": 6,
+            "prerequisites": ["ICI18"]
+        },
+        "ICI31": {
+            "name": "Investigación Operativa",
+            "semester": 6,
+            "prerequisites": ["ICI13"]
+        },
+        "ICI32": {
+            "name": "Mecánica de Fluidos",
+            "semester": 6,
+            "prerequisites": []
+        },
+        "ICI33": {
+            "name": "Sistema de Control de Procesos",
+            "semester": 6,
+            "prerequisites": []
+        },
+        "ICI34": {
+            "name": "Análisis Contable y Financiero",
+            "semester": 6,
+            "prerequisites": []
+        },
+        "ICI35": {
+            "name": "Inglés IV",
+            "semester": 6,
+            "prerequisites": ["ICI29"]
+        },
+        "ICI36": {
+            "name": "Investigación Operativa Avanzada",
+            "semester": 7,
+            "prerequisites": ["ICI31"]
+        },
+        "ICI37": {
+            "name": "Procesos Industriales",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "ICI38": {
+            "name": "Energía y Eficiencia Energética",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "ICI39": {
+            "name": "Formulación y Evaluación de Proyectos",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "ICI40": {
+            "name": "Taller de Ingeniería Industrial",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "ICI41": {
+            "name": "Práctica Intermedia",
+            "semester": 7,
+            "prerequisites": []
+        },
+        "ICI42": {
+            "name": "Modelos Estocásticos y Simulación ",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICI43": {
+            "name": "Gestión Ambiental",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICI44": {
+            "name": "Gestión de Operaciones",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICI45": {
+            "name": "Modelamiento y Planificación de Negocios",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICI46": {
+            "name": "Taller de Energía y Eficiencia",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICI47": {
+            "name": "Electivo AFI",
+            "semester": 8,
+            "prerequisites": []
+        },
+        "ICI48": {
+            "name": "Taller de Negocios",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICI49": {
+            "name": "Gestión Financiera",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICI50": {
+            "name": "Electivo Profesional",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICI51": {
+            "name": "Electivo Profesional",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICI52": {
+            "name": "Ingeniería de la Información",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICI53": {
+            "name": "Taller de Procesos Industriales",
+            "semester": 9,
+            "prerequisites": []
+        },
+        "ICI54": {
+            "name": "Anteproyecto de Título",
+            "semester": 10,
+            "prerequisites": [
+                "ICI01", "ICI02", "ICI03", "ICI04", "ICI05", "ICI06", "ICI07", "ICI08", "ICI09", "ICI10", 
+                "ICI11", "ICI12", "ICI13", "ICI14", "ICI15", "ICI16", "ICI17", "ICI18", "ICI19", "ICI20", 
+                "ICI21", "ICI22", "ICI23", "ICI24", "ICI25", "ICI26", "ICI27", "ICI28", "ICI29", "ICI30", 
+                "ICI31", "ICI32", "ICI33", "ICI34", "ICI35", "ICI36", "ICI37", "ICI38", "ICI39", "ICI40", 
+                "ICI41", "ICI42", "ICI43", "ICI44", "ICI45", "ICI46", "ICI47", "ICI48", "ICI49", "ICI50", 
+                "ICI51", "ICI52", "ICI53"
+            ]
+        },
+        "ICI55": {
+            "name": "Gestión Estratégica",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICI56": {
+            "name": "Electivo Profesional",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICI57": {
+            "name": "Electivo Profesional",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICI58": {
+            "name": "Desarrollo Organizacional",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICI59": {
+            "name": "Taller de Gestión de Operaciones",
+            "semester": 10,
+            "prerequisites": []
+        },
+        "ICI60": {
+            "name": "Proyecto de Título",
+            "semester": 11,
+            "prerequisites": ["ICINF54"]
+        },
+        "ICI61": {
+            "name": "Práctica Profesional",
+            "semester": 11,
+            "prerequisites": [
+                "ICI01", "ICI02", "ICI03", "ICI04", "ICI05", "ICI06", "ICI07", "ICI08", "ICI09", "ICI10", 
+                "ICI11", "ICI12", "ICI13", "ICI14", "ICI15", "ICI16", "ICI17", "ICI18", "ICI19", "ICI20", 
+                "ICI21", "ICI22", "ICI23", "ICI24", "ICI25", "ICI26", "ICI27", "ICI28", "ICI29", "ICI30", 
+                "ICI31", "ICI32", "ICI33", "ICI34", "ICI35", "ICI36", "ICI37", "ICI38", "ICI39", "ICI40", 
+                "ICI41", "ICI42", "ICI43", "ICI44", "ICI45", "ICI46", "ICI47"
+            ]
+        }
+    }
+}
