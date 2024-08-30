@@ -107,7 +107,7 @@
         "ICI21": {
             "name": "Resistencia de Materiales",
             "semester": 4,
-            "prerequisites": []
+            "prerequisites": ["ICI14"]
         },
         "ICI22": {
             "name": "Economía",
@@ -120,7 +120,7 @@
             "prerequisites": ["ICI17"]
         },
         "ICI24": {
-            "name": "Ecuaciones Diferenciales ",
+            "name": "Ecuaciones Diferenciales",
             "semester": 5,
             "prerequisites": ["ICI18"]
         },
@@ -142,7 +142,7 @@
         "ICI28": {
             "name": "Termodinámica",
             "semester": 5,
-            "prerequisites": []
+            "prerequisites": ["ICI08"]
         },
         "ICI29": {
             "name": "Inglés III",
@@ -167,7 +167,7 @@
         "ICI33": {
             "name": "Sistema de Control de Procesos",
             "semester": 6,
-            "prerequisites": []
+            "prerequisites": ["ICI26"]
         },
         "ICI34": {
             "name": "Análisis Contable y Financiero",
@@ -187,12 +187,12 @@
         "ICI37": {
             "name": "Procesos Industriales",
             "semester": 7,
-            "prerequisites": []
+            "prerequisites": ["ICI32"]
         },
         "ICI38": {
             "name": "Energía y Eficiencia Energética",
             "semester": 7,
-            "prerequisites": []
+            "prerequisites": ["ICI20"]
         },
         "ICI39": {
             "name": "Formulación y Evaluación de Proyectos",
@@ -202,17 +202,17 @@
         "ICI40": {
             "name": "Taller de Ingeniería Industrial",
             "semester": 7,
-            "prerequisites": []
+            "prerequisites": ["ICI31", "ICI32"]
         },
         "ICI41": {
             "name": "Práctica Intermedia",
             "semester": 7,
-            "prerequisites": []
+            "prerequisites": ["ICI15"]
         },
         "ICI42": {
-            "name": "Modelos Estocásticos y Simulación ",
+            "name": "Modelos Estocásticos y Simulación",
             "semester": 8,
-            "prerequisites": []
+            "prerequisites": ["ICI25"]
         },
         "ICI43": {
             "name": "Gestión Ambiental",
@@ -222,7 +222,7 @@
         "ICI44": {
             "name": "Gestión de Operaciones",
             "semester": 8,
-            "prerequisites": []
+            "prerequisites": ["ICI36"]
         },
         "ICI45": {
             "name": "Modelamiento y Planificación de Negocios",
@@ -232,7 +232,7 @@
         "ICI46": {
             "name": "Taller de Energía y Eficiencia",
             "semester": 8,
-            "prerequisites": []
+            "prerequisites": ["ICI38"]
         },
         "ICI47": {
             "name": "Electivo AFI",
@@ -242,12 +242,12 @@
         "ICI48": {
             "name": "Taller de Negocios",
             "semester": 9,
-            "prerequisites": []
+            "prerequisites": ["ICI45"]
         },
         "ICI49": {
             "name": "Gestión Financiera",
             "semester": 9,
-            "prerequisites": []
+            "prerequisites": ["ICI34"]
         },
         "ICI50": {
             "name": "Electivo Profesional",
@@ -262,12 +262,12 @@
         "ICI52": {
             "name": "Ingeniería de la Información",
             "semester": 9,
-            "prerequisites": []
+            "prerequisites": ["ICI25"]
         },
         "ICI53": {
             "name": "Taller de Procesos Industriales",
             "semester": 9,
-            "prerequisites": []
+            "prerequisites": ["ICI37", "ICI40"]
         },
         "ICI54": {
             "name": "Anteproyecto de Título",
